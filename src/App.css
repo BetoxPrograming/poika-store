@@ -1,0 +1,79 @@
+/*
+  .app selecciona el elemento que en App.tsx tiene className="app".
+
+  En este caso es:
+
+  <main className="app">
+*/
+.app {
+  /* min-height: 100vh hace que el main mida mínimo toda la altura de la pantalla. */
+  min-height: 100vh;
+
+  /* display: flex activa Flexbox, un sistema para acomodar elementos. */
+  display: flex;
+
+  /* align-items: center centra verticalmente el contenido. */
+  align-items: center;
+
+  /* justify-content: center centra horizontalmente el contenido. */
+  justify-content: center;
+
+  /* padding agrega espacio interno para que el contenido no quede pegado al borde. */
+  padding: 2rem;
+}
+
+/*
+  .hero selecciona el section que tiene className="hero".
+*/
+.hero {
+  /* max-width limita el ancho máximo del contenido. */
+  max-width: 720px;
+
+  /* text-align: center centra el texto. */
+  text-align: center;
+}
+
+/*
+  .hero__label selecciona el párrafo pequeño superior.
+*/
+.hero__label {
+  /* margin-bottom agrega espacio debajo del texto. */
+  margin-bottom: 1rem;
+
+  /* font-size define el tamaño de letra. */
+  font-size: 0.95rem;
+
+  /* font-weight define el grosor de la letra. */
+  font-weight: 600;
+
+  /* text-transform: uppercase convierte el texto a mayúsculas. */
+  text-transform: uppercase;
+
+  /* letter-spacing separa un poco las letras. */
+  letter-spacing: 0.08em;
+}
+
+/*
+  .hero h1 selecciona los h1 que están dentro de un elemento con clase hero.
+*/
+.hero h1 {
+  /* margin: 0 quita márgenes automáticos del h1. */
+  margin: 0;
+
+  /* font-size define el tamaño del título. */
+  font-size: 3rem;
+}
+
+/*
+  .hero__description selecciona el párrafo descriptivo.
+*/
+.hero__description {
+  /* margin-top agrega espacio encima del párrafo. */
+  margin-top: 1rem;
+
+  /* font-size define el tamaño del texto. */
+  font-size: 1.2rem;
+
+  /* line-height define el espacio entre líneas. */
+  line-height: 1.6;
+}

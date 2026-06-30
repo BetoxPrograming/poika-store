@@ -1,0 +1,30 @@
+/*
+  El asterisco * selecciona todos los elementos de la página.
+*/
+* {
+  /*
+    box-sizing: border-box hace que el padding y el borde se calculen
+    dentro del tamaño total del elemento.
+
+    Esto ayuda a que los tamaños sean más fáciles de controlar.
+  */
+  box-sizing: border-box;
+}
+
+/*
+  body representa el cuerpo completo de la página.
+  Todo lo visible en el navegador vive dentro del body.
+*/
+body {
+  /* margin: 0 quita el margen blanco que el navegador trae por defecto. */
+  margin: 0;
+
+  /* min-width define el ancho mínimo de la pantalla. */
+  min-width: 320px;
+
+  /* min-height: 100vh hace que el body mida mínimo toda la altura de la pantalla. */
+  min-height: 100vh;
+
+  /* font-family define la fuente principal del proyecto. */
+  font-family: Arial, Helvetica, sans-serif;
+}

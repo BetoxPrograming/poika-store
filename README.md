@@ -1,75 +1,68 @@
-# React + TypeScript + Vite
+# 🛒 Póika Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Póika Store is a personal practice project built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+This project follows the same learning path as the Java store project from the Web and Patterns course, but it is implemented using the TypeScript ecosystem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Purpose
 
-## React Compiler
+The goal of this repository is to review each course lesson by rebuilding the same store features in TypeScript.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Java project is the academic reference.  
+Póika Store is the parallel practice version.
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Tool | Purpose |
+|---|---|
+| React | Builds the user interface |
+| TypeScript | Adds static typing to JavaScript |
+| Vite | Provides the development server and build tool |
+| ESLint | Reviews code quality and consistency |
+| npm | Manages dependencies and scripts |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Install dependencies:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Run the development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+npm run dev
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Build the project:
 
+```bash
+npm run build
+```
+
+Run ESLint:
+
+```bash
+npm run lint
+```
+
+## 📚 Current Progress
+
+| Lesson | Status | Description |
+|---|---|---|
+| Lesson 01 | In progress | Initial project setup, Vite structure, React entry point, Git and GitHub setup |
+
+## 🧠 Learning Notes
+
+This project is being developed step by step.
+
+Each lesson from the Java store project will be reviewed and translated into a TypeScript equivalent when possible.
+
+## 📄 Reference Project
+
+Java store repository:
+
+```txt
+https://github.com/BetoxPrograming/tienda
 ```

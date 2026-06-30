@@ -18,8 +18,10 @@ Póika Store is the parallel practice version.
 | React | Builds the user interface |
 | TypeScript | Adds static typing to JavaScript |
 | Vite | Provides the development server and build tool |
+| Tailwind CSS | Provides utility classes for styling the interface |
 | ESLint | Reviews code quality and consistency |
 | npm | Manages dependencies and scripts |
+
 
 ## 🚀 Getting Started
 
@@ -49,9 +51,12 @@ npm run lint
 
 ## 📚 Current Progress
 
+## Current Progress
+
 | Lesson | Status | Description |
 |---|---|---|
-| Lesson 01 | In progress | Initial project setup, Vite structure, React entry point, Git and GitHub setup |
+| Lesson 01 | Completed | Initial project setup, Vite structure, React entry point, Git and GitHub setup |
+| Lesson 02 | In progress | Project configuration, Tailwind CSS setup, reusable structure and text organization |
 
 ## 🧠 Learning Notes
 

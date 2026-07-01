@@ -11,14 +11,16 @@ The goal of this repository is to review each course lesson by rebuilding the sa
 The Java project is the academic reference.  
 Póika Store is the parallel practice version.
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
-| React | Builds the user interface |
+| React | Builds the user interface with reusable components |
 | TypeScript | Adds static typing to JavaScript |
 | Vite | Provides the development server and build tool |
 | Tailwind CSS | Provides utility classes for styling the interface |
+| Headless UI | Provides accessible unstyled UI components |
+| Heroicons | Provides SVG icons for the interface |
 | ESLint | Reviews code quality and consistency |
 | npm | Manages dependencies and scripts |
 
@@ -56,7 +58,7 @@ npm run lint
 | Lesson | Status | Description |
 |---|---|---|
 | Lesson 01 | Completed | Initial project setup, Vite structure, React entry point, Git and GitHub setup |
-| Lesson 02 | In progress | Project configuration, Tailwind CSS setup, reusable structure and text organization |
+| Lesson 02 | Completed | Tailwind CSS setup, localized messages, dynamic language management, reusable layout components and language switcher |
 
 ## 🧠 Learning Notes
 
